@@ -10,20 +10,19 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageDef>pphhyy_ToxBullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
       <stoppingPower>3</stoppingPower>
       <armorPenetrationBase>0.14</armorPenetrationBase>
       <speed>55</speed>
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
   <DamageDef ParentName="Bullet">
-    <defName>ToxBullet</defName>
+    <defName>pphhyy_ToxBullet</defName>
     <label>toxic bullet</label>
     <soundExplosion>Bullet</soundExplosion>
     <additionalHediffs>
@@ -72,7 +71,10 @@
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
-      <researchPrerequisite>ToxGas</researchPrerequisite>
+      <researchPrerequisites>
+        <li>Gunsmithing</li>
+        <li>ToxGas</li>
+      </researchPrerequisites>
       <displayPriority>430</displayPriority>
     </recipeMaker>
     <verbs>
@@ -136,7 +138,10 @@
       <ComponentIndustrial>20</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+      <researchPrerequisites>
+        <li>MultibarrelWeapons</li>
+        <li>ToxGas</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -186,14 +191,13 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
+      <damageDef>pphhyy_ToxBullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <speed>70</speed>
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
@@ -223,6 +227,10 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>Gunsmithing</li>
+        <li>ToxGas</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -271,14 +279,13 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageDef>pphhyy_ToxBullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>70</speed>
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
@@ -303,7 +310,10 @@
       <WorkToMake>60000</WorkToMake>
     </statBases>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisites>
+        <li>ChargedShot</li>
+        <li>ToxGas</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
@@ -363,14 +373,13 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
+      <damageDef>pphhyy_ToxBullet</damageDef>
+      <damageAmountBase>28</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
-      <explosionRadius>0.5</explosionRadius>
-      <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
+      <explosionRadius>1.9</explosionRadius>
+      <explosionRadiusDisplayPadding>2</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
@@ -407,6 +416,10 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>Gunsmithing</li>
+        <li>ToxGas</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -455,14 +468,13 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
-      <damageAmountBase>12</damageAmountBase>
+      <damageDef>pphhyy_ToxBullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <speed>55</speed>
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
