@@ -12,9 +12,9 @@
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
-    <weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-      <li>LongSword</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_LongSword</li>
+      <li>pphhyy_Tox_MedievalMeleeAdvanced</li>
     </weaponTags>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -94,8 +94,8 @@
     <costList>
       <Wastepack>1</Wastepack>
     </costList>
-    <weaponTags>
-      <li>MedievalMeleeDecent</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_MedievalMeleeDecent</li>
     </weaponTags>
     <weaponClasses>
       <li>Melee</li>
@@ -137,10 +137,10 @@
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Neolithic</techLevel>
-    <weaponTags>
-      <li>NeolithicMeleeAdvanced</li>
-      <li>MedievalMeleeAdvanced</li>
-      <li>Spear</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_NeolithicMeleeAdvanced</li>
+	  <li>pphhyy_Tox_MedievalMeleeAdvanced</li>
+      <li>pphhyy_Tox_Spear</li>
     </weaponTags>
     <weaponClasses>
       <li>Neolithic</li>
@@ -200,6 +200,9 @@
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
+	<weaponTags Inherit="False">
+      <li>pphhyy_Tox_UltratechMelee</li>
+    </weaponTags>
     <graphicData>
       <texPath>Weapons/ToxMonoSword/ToxMonoSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>

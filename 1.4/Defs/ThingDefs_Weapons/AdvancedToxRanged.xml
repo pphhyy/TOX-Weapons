@@ -10,7 +10,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
+      <damageDef>pphhyy_ToxBullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
       <stoppingPower>3</stoppingPower>
       <armorPenetrationBase>0.14</armorPenetrationBase>
@@ -23,7 +23,7 @@
   </ThingDef>
 
   <!-- <DamageDef ParentName="Bullet">
-    <defName>ToxBullet</defName>
+    <defName>pphhyy_ToxBullet</defName>
     <label>toxic bullet</label>
     <soundExplosion>Bullet</soundExplosion>
     <additionalHediffs>
@@ -52,8 +52,9 @@
     <weaponClasses>
       <li>ShortShots</li>
     </weaponClasses>
-    <weaponTags>
-      <li>ShortShots</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_ShortShotsAdvanced</li>
+	  <li>pphhyy_Tox_AdvancedGun</li>
     </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
@@ -72,7 +73,10 @@
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
-      <researchPrerequisite>ToxGas</researchPrerequisite>
+      <researchPrerequisites>
+        <li>Gunsmithing</li>
+        <li>AdvancedToxWeapons</li>
+      </researchPrerequisites>
       <displayPriority>430</displayPriority>
     </recipeMaker>
     <verbs>
@@ -136,16 +140,19 @@
       <ComponentIndustrial>20</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+      <researchPrerequisites>
+        <li>MultibarrelWeapons</li>
+        <li>AdvancedToxWeapons</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
       <displayPriority>450</displayPriority>
     </recipeMaker>
     <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>GunHeavy</li>
-      <li>Minigun</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_GunHeavyAdvanced</li>
+      <li>pphhyy_Tox_MinigunAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>
@@ -186,14 +193,17 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
+      <damageDef>pphhyy_ToxBullet</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <speed>70</speed>
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
+<<<<<<< HEAD
       <ai_IsIncendiary>false</ai_IsIncendiary>
+=======
+>>>>>>> cd06dc33b7fee49298ed04fe7113b93678510e36
     </projectile>
   </ThingDef>
 
@@ -209,6 +219,9 @@
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>
+	<weaponTags Inherit="False">
+	  <li>pphhyy_Tox_GunAdvanced</li>
+    </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
       <Mass>3.5</Mass>
@@ -223,6 +236,10 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>Gunsmithing</li>
+        <li>AdvancedToxWeapons</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -271,14 +288,17 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
+      <damageDef>pphhyy_ToxBullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>70</speed>
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
+<<<<<<< HEAD
       <ai_IsIncendiary>false</ai_IsIncendiary>
+=======
+>>>>>>> cd06dc33b7fee49298ed04fe7113b93678510e36
     </projectile>
   </ThingDef>
 
@@ -303,9 +323,10 @@
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>SimpleGun</li>
-      <li>Revolver</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_SimpleGunAdvanced</li>
+      <li>pphhyy_Tox_RevolverAdvanced</li>
+	  <li>pphhyy_Tox_GunAdvanced</li>
     </weaponTags>
     <weaponClasses>
       <li>RangedLight</li>
@@ -315,6 +336,10 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>Gunsmithing</li>
+        <li>AdvancedToxWeapons</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -363,14 +388,17 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>ToxBullet</damageDef>
+      <damageDef>pphhyy_ToxBullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <speed>55</speed>
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
+<<<<<<< HEAD
       <ai_IsIncendiary>false</ai_IsIncendiary>
+=======
+>>>>>>> cd06dc33b7fee49298ed04fe7113b93678510e36
     </projectile>
   </ThingDef>
 
