@@ -424,7 +424,7 @@
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags MayRequire="True">
+    <weaponTags Inherit="False">
       <li>pphhyy_Tox_SimpleGun</li>
       <li>pphhyy_Tox_Revolver</li>
     </weaponTags>
