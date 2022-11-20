@@ -24,7 +24,7 @@
   <DamageDef ParentName="Bullet">
     <defName>pphhyy_ToxBullet</defName>
     <label>toxic bullet</label>
-    <soundExplosion>Bullet</soundExplosion>
+    <soundExplosion>BulletImpact_Metal</soundExplosion>
     <additionalHediffs>
       <li>
         <hediff>ToxicBuildup</hediff>
@@ -51,8 +51,9 @@
     <weaponClasses>
       <li>ShortShots</li>
     </weaponClasses>
-    <weaponTags>
-      <li>ShortShots</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_ShortShots</li>
+	  <li>pphhyy_Tox_SimpleGun</li>
     </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
@@ -148,9 +149,9 @@
       <displayPriority>450</displayPriority>
     </recipeMaker>
     <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>GunHeavy</li>
-      <li>Minigun</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_GunHeavy</li>
+      <li>pphhyy_Tox_Minigun</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>
@@ -213,6 +214,9 @@
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>
+	<weaponTags Inherit="False">
+      <li>pphhyy_Tox_SimpleGun</li>
+    </weaponTags>
     <statBases>
       <WorkToMake>12000</WorkToMake>
       <Mass>3.5</Mass>
@@ -326,9 +330,9 @@
       <Plasteel>60</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
-    <weaponTags>
-      <li>MechanoidGunMedium</li>
-      <li>SpacerGun</li>
+    <weaponTags Inherit="False">
+      <li>pphhyy_Tox_MechanoidGunMedium</li>
+      <li>pphhyy_Tox_SpacerGun</li>
     </weaponTags>
     <tradeTags>
       <li>WeaponRanged</li>
@@ -404,9 +408,9 @@
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
-    <weaponTags>
-      <li>SimpleGun</li>
-      <li>Revolver</li>
+    <weaponTags MayRequire="True">
+      <li>pphhyy_Tox_SimpleGun</li>
+      <li>pphhyy_Tox_Revolver</li>
     </weaponTags>
     <weaponClasses>
       <li>RangedLight</li>
