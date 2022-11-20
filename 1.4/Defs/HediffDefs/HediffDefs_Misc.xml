@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>ToxicCysts</defName>
+        <label>toxic cysts</label>
+        <description>Multiple cysts filled with toxins. They don't directly infuence the owner aside from inflicting slight pain, but upon their death they will erupt, releasing large amounts of tox gas.</description>
+        <hediffClass>ToxWeapons.Hediff_ToxicCysts</hediffClass>
+        <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+        <makesSickThought>true</makesSickThought>
+        <scenarioCanAdd>true</scenarioCanAdd>
+        <taleOnVisible>ToxicityRevealed</taleOnVisible>
+        <comps>
+          <li Class="HediffCompProperties_Immunizable">
+            <compClass>HediffComp_ImmunizableToxic</compClass>
+            <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+          </li>
+        </comps>
+        <stages>
+          <li>
+            <label>initial</label>
+            <becomeVisible>false</becomeVisible>
+          </li>
+          <li>
+            <label>initial</label>
+            <minSeverity>0.04</minSeverity>
+            <painOffset>0.025</painOffset>
+          </li>
+          <li>
+            <label>minor</label>
+            <minSeverity>0.2</minSeverity>
+            <painOffset>0.05</painOffset>
+          </li>
+          <li>
+            <label>moderate</label>
+            <minSeverity>0.40</minSeverity>
+            <painOffset>0.1</painOffset>
+          </li>
+          <li>
+            <label>serious</label>
+            <minSeverity>0.60</minSeverity>
+            <painOffset>0.15</painOffset>
+          </li>
+          <li>
+            <label>extreme</label>
+            <minSeverity>0.80</minSeverity>
+            <painOffset>0.2</painOffset>
+          </li>
+        </stages>
+      </HediffDef>
+
+</Defs>

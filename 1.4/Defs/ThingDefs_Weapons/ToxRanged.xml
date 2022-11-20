@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>pphhyy_Tox_Bullet_Shotgun</defName>
-    <label>Tox shotgun blast</label>
+    <label>tox shotgun blast</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -18,7 +18,7 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
@@ -41,7 +41,7 @@
   
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>pphhyy_ToxPumpShotgun</defName>
-    <label>Tox Pump Shotgun</label>
+    <label>tox pump shotgun</label>
     <description>An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range. The rounds have been mixed with toxic waste, perfect for war crimes int the trenches.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
@@ -111,7 +111,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>pphhyy_Tox_Minigun</defName>
-    <label>Tox Minigun</label>
+    <label>tox minigun</label>
     <description>A multi-barrel machine gun. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading guns are powered by the energy from the gunpowder, the minigun uses an electric motor to rapidly cycle cartridges through the weapon.</description>
     <graphicData>
       <texPath>Weapons/ToxMinigun/ToxMinigun</texPath>
@@ -179,7 +179,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>pphhyy_Tox_Bullet_Minigun</defName>
-    <label>Tox Minigun bullet</label>
+    <label>tox minigun bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -193,13 +193,13 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>pphhyy_Tox_BoltActionRifle</defName>
-    <label>Tox bolt-action rifle</label>
+    <label>tox bolt-action rifle</label>
     <description>An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting.</description>
     <graphicData>
       <texPath>Weapons/ToxBoltActionRifle/ToxBoltActionRifle</texPath>
@@ -264,7 +264,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>pphhyy_Tox_Bullet_BoltActionRifle</defName>
-    <label>Tox bolt-action rifle bullet</label>
+    <label>tox bolt-action rifle bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -278,13 +278,13 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>pphhyy_Tox_ChargeLance</defName>
-    <label>Tox Charge Lance</label>
+    <label>tox charge lance</label>
     <description>A pulse-charged rail-assisted lance weapon. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration rail.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -354,7 +354,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>pphhyy_Tox_Bullet_ChargeLance</defName>
-    <label>Tox charge lance shot</label>
+    <label>tox charge lance shot</label>
     <graphicData>
       <texPath>Things/Projectile/ChargeLanceShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -370,13 +370,13 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>pphhyy_Tox_Revolver</defName>
-    <label>Tox Revolver</label>
+    <label>tox revolver</label>
     <description>An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
@@ -448,7 +448,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>pphhyy_Tox_Bullet_Revolver</defName>
-    <label>Tox revolver bullet</label>
+    <label>tox revolver bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -462,7 +462,7 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 

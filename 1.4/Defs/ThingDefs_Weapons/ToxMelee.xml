@@ -3,7 +3,7 @@
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>pphhyy_Weapon_ToxLongSword</defName>
-    <label>Tox longsword</label>
+    <label>tox longsword</label>
     <description>Toxic Waste has been fused into the center of the blade, its corruption seeping into everything. To be struck by such a weapon is to invite a horrible death.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
@@ -68,7 +68,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>pphhyy_Weapon_Toxhammer</defName>
-    <label>Tox Hammer</label>
+    <label>tox hammer</label>
     <description>Toxic Waste canisters put onto the end of a club, a crude warcrime. To be struck by such a weapon is to invite a horrible death.</description>
     <techLevel>Medieval</techLevel>
     <costStuffCount>150</costStuffCount>
@@ -129,7 +129,7 @@
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>pphhyy_Weapon_ToxSpear</defName>
-    <label>Tox Spear</label>
+    <label>tox spear</label>
     <description>A polearm tipped with a sharp point for stabbing opponents, A Toxic waste canister has been attached near the tip. To be struck by such a weapon is to invite a horrible death.</description>
     <graphicData>
       <texPath>Weapons/ToxSpear/ToxSpear</texPath>
@@ -190,7 +190,7 @@
 
   <ThingDef ParentName="MeleeWeaponUltratech">
     <defName>pphhyy_Weapon_ToxMonoSword</defName>
-    <label>Tox Monosword</label>
+    <label>tox monosword</label>
     <description>Monoswords are a mark of nobility, Toxic monoswords are a wasters idea of nobility. To be able to kill your foe in the worst way possible, up close and personal.</description>
     <soundInteract>Interact_MonoSword</soundInteract>
     <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9wF4GwJow7jEA0U7Q3GN8X0wam/SMTUubLYQjn1y+TO4g7ytl2yaYhOLciOLG5j7nkO4oCgSZUdO+HFZFVJcGA==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\TOX-Weapons\\1.4\\Source\\ToxWeapons\\ToxWeapons.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Artemy\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3542\\krafs.rimworld.ref.1.4.3542.nupkg.sha512"
+  ],
+  "logs": []
+}

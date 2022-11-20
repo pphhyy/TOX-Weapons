@@ -3,7 +3,7 @@
 
   <DamageDef>
     <defName>pphhyy_ToxStab</defName>
-    <label>Tox Stab</label>
+    <label>tox stab</label>
     <workerClass>DamageWorker_Stab</workerClass>
     <externalViolence>true</externalViolence>
     <deathMessage>{0} has been stabbed to death.</deathMessage>
@@ -28,7 +28,7 @@
 
   <ToolCapacityDef>
     <defName>pphhyy_ToxStab</defName>
-    <label>Tox Stab</label>
+    <label>tox stab</label>
   </ToolCapacityDef>
 
   <ManeuverDef>
@@ -47,7 +47,7 @@
 
   <DamageDef ParentName="CutBase">
     <defName>pphhyy_ToxCut</defName>
-    <label>Tox Cut</label>
+    <label>tox cut</label>
     <additionalHediffs>
       <li>
         <hediff>ToxicBuildup</hediff>
@@ -80,7 +80,7 @@
 
   <DamageDef Name="BluntBase">
     <defName>pphhyy_ToxBlunt</defName>
-    <label>Tox Blunt</label>
+    <label>tox blunt</label>
     <workerClass>DamageWorker_Blunt</workerClass>
     <externalViolence>true</externalViolence>
     <deathMessage>{0} has been beaten to death.</deathMessage>
@@ -123,7 +123,7 @@
 
   <ToolCapacityDef>
     <defName>pphhyy_ToxBlunt</defName>
-    <label>Tox Cut</label>
+    <label>tox cut</label>
   </ToolCapacityDef>
 
   <ManeuverDef>

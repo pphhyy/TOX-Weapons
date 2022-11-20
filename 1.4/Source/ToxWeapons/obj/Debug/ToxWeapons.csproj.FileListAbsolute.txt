@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Source\ToxWeapons\bin\Debug\ToxWeapons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Source\ToxWeapons\bin\Debug\ToxWeapons.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Source\ToxWeapons\obj\Debug\ToxWeapons.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Source\ToxWeapons\obj\Debug\ToxWeapons.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Source\ToxWeapons\obj\Debug\ToxWeapons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Source\ToxWeapons\obj\Debug\ToxWeapons.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Assemblies\ToxWeapons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\TOX-Weapons\1.4\Assemblies\ToxWeapons.pdb
