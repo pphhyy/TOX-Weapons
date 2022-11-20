@@ -200,10 +200,7 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-<<<<<<< HEAD
       <ai_IsIncendiary>false</ai_IsIncendiary>
-=======
->>>>>>> cd06dc33b7fee49298ed04fe7113b93678510e36
     </projectile>
   </ThingDef>
 
@@ -295,10 +292,7 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-<<<<<<< HEAD
       <ai_IsIncendiary>false</ai_IsIncendiary>
-=======
->>>>>>> cd06dc33b7fee49298ed04fe7113b93678510e36
     </projectile>
   </ThingDef>
 
@@ -395,10 +389,7 @@
       <explosionRadius>0.5</explosionRadius>
       <explosionRadiusDisplayPadding>0.5</explosionRadiusDisplayPadding>
       <postExplosionGasType>ToxGas</postExplosionGasType>
-<<<<<<< HEAD
       <ai_IsIncendiary>false</ai_IsIncendiary>
-=======
->>>>>>> cd06dc33b7fee49298ed04fe7113b93678510e36
     </projectile>
   </ThingDef>
 
